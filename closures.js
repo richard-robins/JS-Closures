@@ -112,10 +112,12 @@ var currentValue = value;
   return {
     inc: function(){
       currentValue++;
+      return currentValue;
     },
 
     dec: function(){
       currentValue--;
+      return currentValue;
     },
 
     log: function() {
